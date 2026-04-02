@@ -69,5 +69,7 @@ Below is the time-series analysis generated from the Snowflake `FACT_PRICES` tab
 
   * **WSL2 Networking:** Configured Airflow to communicate with Windows-hosted Postgres using host-specific IP mapping.
   * **Dependency Management:** Resolved `py_extension_type` conflicts between Snowflake and PyArrow by aligning library versions and managing environment-level timezone flags.
-
+  * 
+📜 License
+This project is licensed under the MIT License.
 -----
