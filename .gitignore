@@ -1,0 +1,12 @@
+# Ignore python environment and cache
+venv/
+__pycache__/
+
+# Ignore the actual data files (WFP CSVs)
+data/*.csv
+
+# Ignore local logs
+logs/
+
+# Ignore sensitive database credentials
+.env

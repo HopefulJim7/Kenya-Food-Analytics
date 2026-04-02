@@ -1,0 +1,15 @@
+name: 'kenya_food_analytics'
+version: '1.0.0'
+config-version: 2
+
+profile: 'kenya_food_analytics' # Note that this must match profiles.yml!
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+analysis-paths: ["analyses"]
+
+models:
+  kenya_food_analytics:
+    marts:
+      +materialized: table

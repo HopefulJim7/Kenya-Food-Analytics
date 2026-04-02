@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: food_etl
+    database: food_prices_prod_v1
+    schema: food_etl
+    tables:
+      - name: fact_prices
+      - name: dim_commodity
+      - name: dim_market
+      - name: dim_date

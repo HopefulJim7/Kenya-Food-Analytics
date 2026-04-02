@@ -1,0 +1,14 @@
+# Fill '_" with coorect details
+
+kenya_food_analytics:
+  outputs:
+    dev:
+      type: '_'
+      host: '_'
+      port: 5432
+      user: postgres
+      password: '_'
+      dbname: '_'
+      schema: '_"cd'
+      threads: 4
+  target: dev
